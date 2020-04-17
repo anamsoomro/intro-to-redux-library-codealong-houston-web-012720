@@ -29,6 +29,7 @@ const mapDispatchToProps = dispatch => {
 	};
 };
 
+// redux's connect method lets you take data from store and make them component's props
 export default connect(
 	mapStateToProps,
 	mapDispatchToProps
